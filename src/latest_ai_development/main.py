@@ -56,9 +56,3 @@ def test():
 
     except Exception as e:
         raise Exception(f"An error occurred while replaying the crew: {e}")
-
-def run_azure():
-    """
-    Run the crew on Azure.
-    """
-    AzureCrew().kickoff()
