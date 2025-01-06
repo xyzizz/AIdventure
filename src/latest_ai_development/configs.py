@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv(
-    dotenv_path="/Users/xyz/Documents/python_projects/latest_ai_development/.env"
+    dotenv_path="./.env"
 )
 
 
