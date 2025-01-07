@@ -1,33 +1,27 @@
 import os
-from pprint import pprint
-from langchain_openai import AzureChatOpenAI
-from src.latest_ai_development.configs import load_config, config
-from langchain_core.messages import AIMessage
+from crewai import LLM
+from langchain_openai import AzureChatOpenAI, AzureOpenAI
+
 
 class LLMs:
-    def build_azure_llm(self):
+    @classmethod
+    def default_llm(cls):
+        default_llm = LLM(
+            model = "openai/glm-4-flash",
+            base_url="https://open.bigmodel.cn/api/paas/v4/",
+            api_key=os.environ.get("ZHUPU_API_KEY")
+        )
+        return default_llm
+
+
+    @classmethod
+    def azure_llm(cls):
         azure_llm = AzureChatOpenAI(
-            deployment_name=config.deployment_name,
-            model=config.model,
-            api_key=config.azure_api_key,
-            api_version=config.azure_openai_api_ver,
-            azure_endpoint=config.azure_api_base,
-            temperature=0,
-            max_retries=2,
+            deployment_name=os.getenv("AZURE_OPENAI_DEPLOYMENT"),
+            model="gpt-4o",
+            api_key=os.getenv("AZURE_OPENAI_KEY"),
+            api_version=os.getenv("AZURE_OPENAI_VERSION"),
+            azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
         )
         return azure_llm
-
-def test_azure():
-    azure_llm = LLMs().build_azure_llm()
-
-    messages = [
-    (
-        "system",
-        "You are a helpful assistant that translates English to French. Translate the user sentence.",
-    ),
-    ("human", "I love programming."),
-    ]
-    ai_msg: AIMessage = azure_llm.invoke(messages)
-    print(ai_msg.pretty_repr())
-
 
