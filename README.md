@@ -1,6 +1,6 @@
-# Aiventure Crew
+# AIdventure Crew
 
-Welcome to the Aiventure Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the AIdventure Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
 ## Installation
 
@@ -45,7 +45,7 @@ The latest-ai-development Crew is composed of multiple AI agents, each with uniq
 
 ## Support
 
-For support, questions, or feedback regarding the Aiventure Crew or crewAI.
+For support, questions, or feedback regarding the AIdventure Crew or crewAI.
 - Visit our [documentation](https://docs.crewai.com)
 - Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
 - [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
