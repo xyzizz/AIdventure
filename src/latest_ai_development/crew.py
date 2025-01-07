@@ -47,6 +47,7 @@ class LatestAiDevelopment:
     def research_task(self) -> Task:
         return Task(
             config=self.tasks_config["research_task"],
+            llm=LLMs.default_llm(),
         )
 
     @task

@@ -5,23 +5,23 @@ from langchain_openai import AzureChatOpenAI, AzureOpenAI
 
 class LLMs:
     @classmethod
-    def default_llm(cls):
-        default_llm = LLM(
-            model = "openai/glm-4-flash",
-            base_url="https://open.bigmodel.cn/api/paas/v4/",
-            api_key=os.environ.get("ZHUPU_API_KEY")
-        )
-        return default_llm
-
+    def default_llm(cls) -> LLM:
+        return cls.zhupu_llm()
 
     @classmethod
-    def azure_llm(cls):
-        azure_llm = AzureChatOpenAI(
-            deployment_name=os.getenv("AZURE_OPENAI_DEPLOYMENT"),
-            model="gpt-4o",
+    def zhupu_llm(cls) -> LLM:
+        zhupu_llm = LLM(
+            model=os.getenv("ZHUPU_MODEL", "openai/glm-4-flash"),
+            base_url=os.getenv("ZHUPU_API_ENDPOINT"),
+            api_key=os.getenv("ZHUPU_API_KEY"),
+        )
+        return zhupu_llm
+
+    @classmethod
+    def azure_llm(cls) -> LLM:
+        azure_llm = LLM(
+            model=os.getenv("AZURE_MODEL"),
+            base_url=os.getenv("AZURE_OPENAI_ENDPOINT"),
             api_key=os.getenv("AZURE_OPENAI_KEY"),
-            api_version=os.getenv("AZURE_OPENAI_VERSION"),
-            azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
         )
         return azure_llm
-
