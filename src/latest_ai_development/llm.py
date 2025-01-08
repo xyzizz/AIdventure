@@ -6,10 +6,10 @@ from langchain_openai import AzureChatOpenAI, AzureOpenAI
 class LLMs:
     @classmethod
     def default_llm(cls) -> LLM:
-        return cls.zhupu_llm()
+        return cls.zhipu_llm()
 
     @classmethod
-    def zhupu_llm(cls) -> LLM:
+    def zhipu_llm(cls) -> LLM:
         zhupu_llm = LLM(
             model=os.getenv("ZHUPU_MODEL", "openai/glm-4-flash"),
             base_url=os.getenv("ZHUPU_API_ENDPOINT"),
