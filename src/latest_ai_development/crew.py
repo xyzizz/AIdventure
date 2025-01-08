@@ -4,7 +4,7 @@ from chromadb.utils.embedding_functions.openai_embedding_function import (
     OpenAIEmbeddingFunction,
 )
 
-from src.latest_ai_development.llm import LLMs
+from .llm import LLMs
 
 
 # If you want to run a snippet of code before or after the crew starts,
@@ -40,6 +40,14 @@ class LatestAiDevelopment:
             verbose=True,
         )
 
+    @agent
+    def translator_cn(self) -> Agent:
+        return Agent(
+            config=self.agents_config["translator_cn"],
+            llm=LLMs.default_llm(),
+            verbose=True,
+        )
+
     # To learn more about structured task outputs,
     # task dependencies, and task callbacks, check out the documentation:
     # https://docs.crewai.com/concepts/tasks#overview-of-a-task
@@ -47,15 +55,23 @@ class LatestAiDevelopment:
     def research_task(self) -> Task:
         return Task(
             config=self.tasks_config["research_task"],
-            llm=LLMs.default_llm(),
+            agent=self.researcher(),
         )
 
     @task
     def reporting_task(self) -> Task:
         return Task(
             config=self.tasks_config["reporting_task"],
-            llm=LLMs.default_llm(),
-            output_file="report.md",
+            agent=self.reporting_analyst(),
+            output_file="outputs/report_en.md",
+        )
+
+    @task
+    def translation_task(self) -> Task:
+        return Task(
+            config=self.tasks_config["translation_task"],
+            agent=self.translator_cn(),
+            output_file="outputs/report_cn.md",
         )
 
     @crew

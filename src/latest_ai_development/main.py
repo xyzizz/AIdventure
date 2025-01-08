@@ -2,7 +2,7 @@
 import sys
 import warnings
 
-from src.latest_ai_development.crew import LatestAiDevelopment
+from .crew import LatestAiDevelopment
 
 warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 
