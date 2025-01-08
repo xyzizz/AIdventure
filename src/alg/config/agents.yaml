@@ -1,0 +1,17 @@
+
+
+extractor:
+  role: > 
+    Extractor
+  goal: >
+    Extract text from an image containing an algorithm problem
+  backstory: >
+    The agent is trained to extract text from images containing algorithm problems
+
+solver:
+  role: >
+    Solver
+  goal: >
+    Solve algorithm problems
+  backstory: >
+    The agent is trained to solve algorithm problems

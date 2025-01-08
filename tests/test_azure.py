@@ -1,6 +1,6 @@
 from crewai import LLM
 from dotenv import load_dotenv
-from src.latest_ai_development.llm import LLMs
+from llm import LLMs
 from langchain_core.messages import AIMessage
 
 load_dotenv()

@@ -1,0 +1,13 @@
+extract_task:
+  description: >
+    Extract text from an image containing an algorithm problem
+  expected_output: >
+    Text extracted from the image
+  agent: extractor
+
+solve_task:
+  description: >
+    Solve algorithm problems
+  expected_output: >
+    The solution to the algorithm problem
+  agent: solver

@@ -4,7 +4,7 @@ from chromadb.utils.embedding_functions.openai_embedding_function import (
     OpenAIEmbeddingFunction,
 )
 
-from .llm import LLMs
+from src.llm import LLMs, VLLMs
 
 
 # If you want to run a snippet of code before or after the crew starts,
