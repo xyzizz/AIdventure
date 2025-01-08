@@ -1,12 +1,20 @@
+import os
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from chromadb.utils.embedding_functions.openai_embedding_function import (
     OpenAIEmbeddingFunction,
 )
+from crewai_tools.tools.vision_tool.vision_tool import ImagePromptSchema
 
-from .tool.custom_tool import analyse_image
+from src.alg.tool.custom_tool import analyse_image
+
 
 from ..llm import LLMs, VLLMs
+
+
+image_path = (
+    "/Users/xyz/Documents/python_projects/aidventure/src/alg/material/image.png"
+)
 
 
 @CrewBase
@@ -17,38 +25,36 @@ class AlgorithmProblemProcesser:
     @agent
     def extractor(self) -> Agent:
         return Agent(
-            role="extractor",
-            goal="Extract text from an image containing an algorithm problem",
-            backstory="The agent is trained to extract text from images containing algorithm problems",
-            # llm=VLLMs.default_llm(),
+            config=self.agents_config["extractor"],
+            llm=LLMs.default_llm(),
             verbose=True,
-            tools=[analyse_image()],
+            tools=[analyse_image],
         )
-    
+
     @agent
     def solver(self) -> Agent:
         return Agent(
-            role="solver",
-            goal="Solve algorithm problems",
-            backstory="The agent is trained to solve algorithm problems",
+            config=self.agents_config["solver"],
             llm=LLMs.default_llm(),
             verbose=True,
         )
-    
+
     @task
     def extract_task(self) -> Task:
         return Task(
             config=self.tasks_config["extract_task"],
             agent=self.extractor(),
+            output_file=".extracted_data.txt",
         )
-    
+
     @task
     def solve_task(self) -> Task:
         return Task(
             config=self.tasks_config["solve_task"],
             agent=self.solver(),
+            output_file=".solve_task.md",
         )
-    
+
     @crew
     def crew(self) -> Crew:
         return Crew(
@@ -57,10 +63,11 @@ class AlgorithmProblemProcesser:
             process=Process.sequential,
             verbose=True,
         )
-    
+
 
 def main():
-    AlgorithmProblemProcesser().crew().kickoff()
+    print(f"os.path.exists(image_path):{os.path.exists(image_path)}")
+    AlgorithmProblemProcesser().crew().kickoff({"image_path": image_path})
 
 
 if __name__ == "__main__":
