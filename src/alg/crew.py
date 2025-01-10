@@ -9,12 +9,7 @@ from crewai_tools.tools.vision_tool.vision_tool import ImagePromptSchema
 from src.alg.tool.custom_tool import analyse_image
 
 
-from ..llm import LLMs, VLLMs
-
-
-image_path = (
-    "/Users/xyz/Documents/python_projects/aidventure/src/alg/material/image.png"
-)
+from ..llm import LLMs
 
 
 @CrewBase
@@ -29,6 +24,7 @@ class AlgorithmProblemProcesser:
             llm=LLMs.default_llm(),
             verbose=True,
             tools=[analyse_image],
+            max_iter=1,
         )
 
     @agent
@@ -44,7 +40,8 @@ class AlgorithmProblemProcesser:
         return Task(
             config=self.tasks_config["extract_task"],
             agent=self.extractor(),
-            output_file=".extracted_data.txt",
+            output_file="outputs/extracted_data.txt",
+            max_retries=0,
         )
 
     @task
@@ -52,7 +49,7 @@ class AlgorithmProblemProcesser:
         return Task(
             config=self.tasks_config["solve_task"],
             agent=self.solver(),
-            output_file=".solve_task.md",
+            output_file="outputs/solve_task.md",
         )
 
     @crew
@@ -61,14 +58,5 @@ class AlgorithmProblemProcesser:
             agents=self.agents,
             tasks=self.tasks,
             process=Process.sequential,
-            verbose=True,
+            # verbose=True,
         )
-
-
-def main():
-    print(f"os.path.exists(image_path):{os.path.exists(image_path)}")
-    AlgorithmProblemProcesser().crew().kickoff({"image_path": image_path})
-
-
-if __name__ == "__main__":
-    main()

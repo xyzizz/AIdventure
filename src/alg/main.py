@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+import os
 import sys
 import warnings
 
@@ -11,9 +12,16 @@ warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 # Replace with inputs you want to test with, it will automatically
 # interpolate any tasks and agents information
 
+image_path = "./src/alg/material/image.png"
+
 
 def run():
     """
     Run the crew.
     """
-    AlgorithmProblemProcesser().crew().kickoff()
+    exists = os.path.exists(image_path)
+    if not exists:
+        print(f"Please provide an image at the path: {image_path}")
+        sys.exit(1)
+
+    AlgorithmProblemProcesser().crew().kickoff({"image_path": image_path})

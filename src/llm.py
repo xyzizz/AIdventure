@@ -17,6 +17,15 @@ class LLMs:
         return zhipu_llm
 
     @classmethod
+    def zhipu_llm_plus(cls) -> LLM:
+        zhipu_llm = LLM(
+            model=os.getenv("ZHIPU_MODEL_PLUS", "openai/glm-4-plus"),
+            base_url=os.getenv("ZHIPU_API_ENDPOINT"),
+            api_key=os.getenv("ZHIPU_API_KEY"),
+        )
+        return zhipu_llm
+
+    @classmethod
     def azure_llm(cls) -> LLM:
         azure_llm = LLM(
             model=os.getenv("AZURE_MODEL"),
