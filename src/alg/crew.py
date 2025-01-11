@@ -6,7 +6,7 @@ from chromadb.utils.embedding_functions.openai_embedding_function import (
 )
 from crewai_tools.tools.vision_tool.vision_tool import ImagePromptSchema
 
-from src.alg.tool.custom_tool import analyse_image
+from src.alg.tool.custom_tool import AnalyseImageTool
 
 
 from ..llm import LLMs
@@ -23,7 +23,7 @@ class AlgorithmProblemProcesser:
             config=self.agents_config["extractor"],
             llm=LLMs.default_llm(),
             verbose=True,
-            tools=[analyse_image],
+            tools=[AnalyseImageTool()],
             max_iter=1,
         )
 

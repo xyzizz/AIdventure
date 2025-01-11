@@ -4,7 +4,7 @@ extractor:
   goal: >
     Extract text from an image containing an algorithm question, the local path to the image is {image_path}
   backstory: >
-    The agent is trained to extract text from images containing algorithm questions
+    The agent is trained to use tool to extract text from images containing algorithm questions
 
 solver:
   role: >
