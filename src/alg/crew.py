@@ -21,7 +21,7 @@ class AlgorithmProblemProcesser:
     def extractor(self) -> Agent:
         return Agent(
             config=self.agents_config["extractor"],
-            llm=LLMs.default_llm(),
+            llm=LLMs.default(),
             verbose=True,
             tools=[AnalyseImageTool()],
             max_iter=1,
@@ -31,7 +31,7 @@ class AlgorithmProblemProcesser:
     def solver(self) -> Agent:
         return Agent(
             config=self.agents_config["solver"],
-            llm=LLMs.default_llm(),
+            llm=LLMs.default(),
             verbose=True,
         )
 

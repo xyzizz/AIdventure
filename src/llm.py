@@ -4,11 +4,11 @@ from crewai import LLM
 
 class LLMs:
     @classmethod
-    def default_llm(cls) -> LLM:
-        return cls.zhipu_llm()
+    def default(cls) -> LLM:
+        return cls.deepseek()
 
     @classmethod
-    def zhipu_llm(cls) -> LLM:
+    def zhipu(cls) -> LLM:
         zhipu_llm = LLM(
             model=os.getenv("ZHIPU_MODEL"),
             base_url=os.getenv("ZHIPU_API_ENDPOINT"),
@@ -17,7 +17,7 @@ class LLMs:
         return zhipu_llm
 
     @classmethod
-    def zhipu_llm_plus(cls) -> LLM:
+    def zhipu_plus(cls) -> LLM:
         zhipu_llm = LLM(
             model=os.getenv("ZHIPU_MODEL_PLUS", "openai/glm-4-plus"),
             base_url=os.getenv("ZHIPU_API_ENDPOINT"),
@@ -26,7 +26,7 @@ class LLMs:
         return zhipu_llm
 
     @classmethod
-    def azure_llm(cls) -> LLM:
+    def azure(cls) -> LLM:
         azure_llm = LLM(
             model=os.getenv("AZURE_MODEL"),
             base_url=os.getenv("AZURE_OPENAI_ENDPOINT"),
@@ -34,6 +34,14 @@ class LLMs:
         )
         return azure_llm
 
+    @classmethod
+    def deepseek(cls) -> LLM:
+        deepseek_llm = LLM(
+            model="openai/deepseek-chat",
+            base_url="https://api.deepseek.com/v1/",
+            api_key=os.getenv("DEEPSEEK_API_KEY"),
+        )
+        return deepseek_llm
 
 class VLLMs:
     @classmethod

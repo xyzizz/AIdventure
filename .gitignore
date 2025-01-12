@@ -2,4 +2,5 @@
 .*.md
 .*.txt
 __pycache__/
+*.ipynb
 # report*.md

@@ -7,7 +7,7 @@ load_dotenv()
 
 
 def test_azure():
-    azure_llm: LLM = LLMs.azure_llm()
+    azure_llm: LLM = LLMs.azure()
 
     messages = [
         {

@@ -28,7 +28,7 @@ class LatestAiDevelopment:
     def researcher(self) -> Agent:
         return Agent(
             config=self.agents_config["researcher"],
-            llm=LLMs.default_llm(),
+            llm=LLMs.default(),
             verbose=True,
         )
 
@@ -36,7 +36,7 @@ class LatestAiDevelopment:
     def reporting_analyst(self) -> Agent:
         return Agent(
             config=self.agents_config["reporting_analyst"],
-            llm=LLMs.default_llm(),
+            llm=LLMs.default(),
             verbose=True,
         )
 
@@ -44,7 +44,7 @@ class LatestAiDevelopment:
     def translator_cn(self) -> Agent:
         return Agent(
             config=self.agents_config["translator_cn"],
-            llm=LLMs.default_llm(),
+            llm=LLMs.default(),
             verbose=True,
         )
 
