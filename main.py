@@ -4,12 +4,13 @@
 from dotenv import load_dotenv
 from src.latest_ai_development.main import run as run_summarize_crew
 from src.alg.main import run as run_alg_crew
+from src.news.main import run as run_news_crew
 
 load_dotenv()
 
 
 def run():
-    run_alg_crew()
+    run_news_crew()
 
 
 if __name__ == "__main__":

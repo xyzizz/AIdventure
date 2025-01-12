@@ -6,7 +6,7 @@ from chromadb.utils.embedding_functions.openai_embedding_function import (
 )
 from crewai_tools.tools.vision_tool.vision_tool import ImagePromptSchema
 
-from src.alg.tool.custom_tool import AnalyseImageTool
+from src.tools.image_tools import AnalyseImageTool
 
 
 from ..llm import LLMs

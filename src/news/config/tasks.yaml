@@ -1,0 +1,18 @@
+retrieve_task:
+  description: >
+    获取24小时内最新的10条有关AI、AI Agent和区块链新闻的内容、标题和来源链接
+  expected_output: >
+    获取24小时内最新的10条有关AI、AI Agent和区块链新闻的内容、标题和来源链接
+
+translate_task:
+  description: >
+    在保留原文并且不破坏原有格式的前提下，为每条新闻的内容添加中文翻译
+  expected_output: >
+    返回中英文对照的新闻内容
+
+format_task:
+  description: >
+    将新闻内容格式化为markdown格式.
+  expected_output: >
+    返回markdown格式的新闻内容.
+    Formatted as markdown without '```'

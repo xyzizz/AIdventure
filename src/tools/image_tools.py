@@ -5,6 +5,7 @@ from src.llm import VLLMs
 from crewai import LLM
 from crewai.tools import BaseTool
 from pydantic import BaseModel, Field
+from langchain_community.tools import DuckDuckGoSearchRun
 
 
 class AnalyseImageInput(BaseModel):
@@ -36,9 +37,6 @@ class AnalyseImageTool(BaseTool):
         ]
         res = llm.call(messages)
         return res
-
-    def cache_function(self, args=None, result=None):
-        return False
 
 
 # @tool("Analyse Image")
