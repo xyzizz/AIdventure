@@ -1,6 +1,6 @@
 import os
 from crewai import LLM
-
+from langchain_google_genai import ChatGoogleGenerativeAI
 
 class LLMs:
     @classmethod
@@ -42,6 +42,16 @@ class LLMs:
             api_key=os.getenv("DEEPSEEK_API_KEY"),
         )
         return deepseek_llm
+
+    @classmethod
+    def gemini(cls) -> LLM:
+        llm = ChatGoogleGenerativeAI(
+            model='gemini-2.0-flash-exp',
+            verbose=True,
+            temperature=0.5,
+            goggle_api_key=os.getenv('GEMINI_API_KEY')
+        )
+        return llm
 
 class VLLMs:
     @classmethod

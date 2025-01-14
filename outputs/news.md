@@ -1,55 +1,62 @@
 ---
 title: News today
-description:  it is description
+description: it is description
 author: <author1_id>
-date: 2025-01-12 00:00:00 +0800
+date: 2025-01-15 00:00:00 +0800
 categories: [news]
 tags: [Information asymmetry today]
 ---
 
-# 在兴趣日益增长之际，GRIFFAIN跃升为第二大Solana AI代理机构启动平台
+# Top AI News, October 2023
+Source: [Everypixel Journal](https://journal.everypixel.com/top-ai-news-october-2023)
 
-**链接**: [https://www.banklesstimes.com/articles/2024/12/14/griffain-2nd-largest-ai-agent-launchpad-are-virtual-protocols-days-numbered/](https://www.banklesstimes.com/articles/2024/12/14/griffain-2nd-largest-ai-agent-launchpad-are-virtual-protocols-days-numbered/)
+> "The year 2023 has been one of the most exciting years for AI, as was also highlighted by the State of AI report 2023. Therefore, it is not surprising that among TIME's top 200 inventions, at least 44 are AI-powered, further emphasizing the profound impact of AI on this year's technological landscape."  
+> 中文翻译: "2023年是人工智能最令人兴奋的一年之一，这在2023年人工智能报告中也得到了强调。因此，在《时代》杂志评选的前200项发明中，有至少44项是由人工智能驱动的，这进一步强调了人工智能在今年科技领域的深远影响。"
 
-**内容**: Griffain AI代理启动平台的崛起。Griffain在Solana区块链上作为Solana AI代理黑客松项目的一部分启动，其初始上市发生在2024年11月21日。该平台融合了人工智能和区块链技术，创建了一种强大的去中心化金融（DeFi）解决方案，能够实现无缝的代币交换、流动性提供和社区建设。
+# This Month in AI - October 2023
+Source: [GitHub Pages](https://mind-benders.github.io/blog/p/tmai-october-2023/)
 
----
+> "Latest News & Breakthroughs in the Month of October 2023 in AI. Exciting AI Developments: October 2023. Artificial intelligence continues to make leaps and bounds, shaping the future in extraordinary ways."  
+> 中文翻译: "2023年10月份人工智能的最新新闻和突破。令人兴奋的人工智能发展：2023年10月。人工智能不断取得飞跃，以非凡的方式塑造未来。"
 
-# 今日顶级AI新闻
+# Latest AI, Crypto News Headlines for October 18, 2023
+Source: [LinkedIn](https://www.linkedin.com/pulse/latest-ai-crypto-news-headlines-october-18-2023-lewis-e-farrell-bhsec/)
 
-**链接**: [https://www.binance.com/en/square/news/ai+news](https://www.binance.com/en/square/news/ai+news)
+> "Latest AI, Crypto News Headlines for October 18, 2023. ... Latest AI, Crypto News Headlines for October 10, 2023 Lewis E. Farrell 11mo Prompt Competitor? OpenAI Rival AI21 Now Worth $1.4 Billion"  
+> 中文翻译: "2023年10月18日的最新人工智能和加密货币新闻头条。... 2023年10月10日的最新人工智能和加密货币新闻头条。Lewis E. Farrell 11个月前 提问竞争对手？OpenAI的对手AI21现价值14亿美元。"
 
-**内容**:
-- **Bitwise CEO称AI可能会促使小众公司和代币化业务的增长**  
-  根据Odaily的报道，Bitwise的CEO Hunter Horsley最近在X上分享了看法，认为人工智能（AI）可能会带来小众公司和代币化业务的激增。
-- **OpenAI CEO称AI代理将在2025年进入劳动力市场**  
-  根据Cointelegraph的报道，OpenAI CEO Sam Altman表示，人工智能代理可能最早在今年开始进入劳动力市场，因为公司正在向开发类人通用人工智能（AGI）迈进。
-- **OpenAI CEO披露对新AI技术的主要期望**  
-  根据Odaily的报道，12月31日，OpenAI CEO Sam Altman在社交媒体平台X上公布了一周内的调查结果，突出了公众对即将到来的AI技术的期望。
+# ODSC’s AI Weekly Recap: Week of October 18 - Open Data Science
+Source: [Open Data Science](https://opendatascience.com/odscs-ai-weekly-recap-week-of-october-18/)
 
----
+> "ODSC AI Weekly Recap Newsletter: Every week, the ODSC team researches the latest advancements in AI for this AI Weekly Recap. We review a selection of the most impactful research, trending open-source projects, and significant startup investments. We carefully curate and share the most impactful AI news & developments."  
+> 中文翻译: "ODSC人工智能周报通知：每周，ODSC团队都会研究人工智能领域的最新进展，以制作这一人工智能周报。我们回顾了一些最具影响力的研究、热门的开源项目以及重要的初创企业投资。我们精心策划并分享最具影响力的人工智能新闻及发展。"
 
-# 加密市场获得24/7 AI代理托管的突发新闻直播
+# Latest AI News - Insurtech Insights
+Source: [Insurtech Insights](https://www.insurtechinsights.com/news-insights/artificial-intelligence/)
 
-**链接**: [https://cointelegraph.com/news/crypto-market-gets-24-7-ai-agent-hosted-livestream-for-breaking-news](https://cointelegraph.com/news/crypto-market-gets-24-7-ai-agent-hosted-livestream-for-breaking-news)
+> "Latest News / Artificial Intelligence; LATEST AI NEWS ... AI claims management software company, has announced the launch of 'Clive™', the insurance industry’s first AI-powered Insurance Adjustment Agent. Read More » October 18, 2023 7:15 pm"  
+> 中文翻译: "最新新闻 / 人工智能；最新的人工智能新闻... 人工智能理赔管理软件公司宣布推出'Clive™'，这是保险业的首个人工智能驱动的保险调整代理人。阅读全文 »2023年10月18日下午7:15"
 
-**内容**: ChainNews推出了一个由AI托管的加密新闻直播频道，其中包括多个互动AI代理，例如一个名为DogWifHat的实时代理，为加密爱好者提供个性化的实时更新，将被动的新闻消费转化为积极的参与。通过这些互动AI代理，用户可以实时体验加密新闻，与区块链本身一样快速适应市场变化。Matrix One的创始人Mark Studholme强调，就像股票市场受益于像Bloomberg Live和CNBC这样的直播媒体一样，加密行业也通过ChainNews的推出获得专门的直播媒体：“任何对突发加密新闻感兴趣的人都可以免费使用，并由我们来自Matrix One的AI驱动角色主持。”
+# This Week's Most Read: DeepMind's New AI Agent System - AI Business
+Source: [AI Business](https://aibusiness.com/verticals/this-week-s-most-read-deepmind-s-new-ai-agent-system)
 
----
+> "This Week's Most Read: DeepMind's New AI Agent System. Featuring the latest column from former IBM AI chief Seth Dobrin & the new Google Gemini LLM. Here are this week's most popular stories on AI Business: 1. DeepMind said the approach 'paves the way for cultural evolution to play an algorithmic role in the development of artificial general intelligence.'"  
+> 中文翻译: "本周最受关注的文章：DeepMind的新AI代理系统。包括前IBM AI负责人Seth Dobrin的最新专栏和新的Google Gemini LLM。以下是本周AI Business上最受欢迎的故事：1. DeepMind表示，这种方法'为文化进化在通用人工智能发展中发挥算法作用铺平了道路'。"
 
-# io.net合作激发投资者兴趣，ZEREBRO币上涨45%
+# Crypto and Blockchain News (October 18, 2023)
+Source: [Binance](https://www.binance.com/en/square/post/1400933)
 
-**链接**: [https://www.banklesstimes.com/articles/2024/12/30/zerebro-news-ai-agent-token-surges-45-amid-io-net-partnership/](https://www.banklesstimes.com/articles/2024/12/30/zerebro-news-ai-agent-token-surges-45-amid-io-net-partnership/)
+> "Crypto and Blockchain News (October 18, 2023): 1️⃣ On October 17, 2023, the social media platform Reddit announced the discontinuation of its Community Points program, which allowed users to earn cryptocurrency. 😮 It was an interesting experiment that helped engage people in the world of cryptocurrencies.. 2️⃣ CryptoQuant, an analytics company, has reported that if a spot."  
+> 中文翻译: "加密货币和区块链新闻（2023年10月18日）：1️⃣ 2023年10月17日，社交媒体平台Reddit宣布停止其社区积分计划，该计划允许用户赚取加密货币。😮这是一个有趣的实验，帮助人们参与到加密货币的世界中。2️⃣ 加密货币分析公司CryptoQuant报告称，如果一个现货"
 
-**内容**: 自主AI代理协议Zerebro凭借其近期价格飙升吸引了市场关注，受到技术和市场可达性的战略性发展驱动。由于与io.net的合作以及在AI和区块链集成方面的进展，ZEREBRO的价格从平均500万美元在24小时内跃升至超过1.92亿美元。
+# Blockchain and Digital Assets News and Trends - October 2023
+Source: [DLA Piper](https://www.dlapiper.com/en-eu/insights/publications/blockchain-and-digital-assets-news-and-trends/2023/blockchain-and-digital-assets-news-and-trends-october-2023)
 
----
+> "Under this rule, issued on October 19, 2023, FinCEN would exercise its authority under the seldom-used Section 311 of the USA PATRIOT Act (Section 311) to designate transactions with cryptocurrency mixers and mixing services as a 'Primary Money Laundering Concern.' This would permit FinCEN to order financial institutions regulated by the."  
+> 中文翻译: "根据2023年10月19日发布的这项规定，FinCEN将行使其在美国爱国者法案（第311条）下鲜少使用的权力，将使用加密货币混合器和混合服务的交易指定为“主要洗钱担忧”。这将允许FinCEN命令受其监管的金融机构。"
 
-# 人工智能行业趋势与洞察的最新消息
+# Blockchain News - Latest News | The Currency Analytics
+Source: [The Currency Analytics](https://thecurrencyanalytics.com/blockchain)
 
-**链接**: [https://www.cryptopolitan.com/news/ai/](https://www.cryptopolitan.com/news/ai/)
-
-**内容**: 通过我们的最新新闻和洞察，探索人工智能的前沿。通过关注新兴趋势和发展，在AI行业中保持领先。
-- **4小时前**: Vitalik 警告，AI必须赋权人类而不是剥夺人类的权力。
-- **阅读时间**: 2分钟。
-- **5小时前**: 具有交易能力的AI代理：下一个热点趋势？关注我们的推特获取更多更新。
+> "Catch up on the latest blockchain news at The Currency Analytics, TCAT, a cryptocurrency news website you can trust. Internet Computer Token (ICP) Gains 16% Amid Surge in Network Engagement. Cryptocurrency landscape is marked by volatility, one token is capturing attention with its impressive performance."  
+> 中文翻译: "在The Currency Analytics上了解最新的区块链新闻，TCAT是一个值得信赖的加密货币新闻网站。互联网计算机代币（ICP）在网络参与度激增的情况下上涨了16％。加密货币市场波动性显著，其中一个代币以其出色的表现吸引了关注。"
