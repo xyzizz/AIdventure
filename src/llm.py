@@ -5,7 +5,7 @@ from crewai import LLM
 class LLMs:
     @classmethod
     def default(cls) -> LLM:
-        return cls.deepseek()
+        return cls.azure()
 
     @classmethod
     def zhipu(cls) -> LLM:

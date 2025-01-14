@@ -1,108 +1,55 @@
 ---
-title: AI Agent Tokens Outperform Bitcoin and Ethereum in Crypto Market  
-description: Over the past 24 hours, AI agent tokens have emerged as standout performers in the crypto market, overshadowing Bitcoin and Ethereum.  
-author: <author1_id>  
-date: 2025-01-12 00:00:00 +0800  
-categories: [news]  
-tags: [Information asymmetry today]  
+title: News today
+description:  it is description
+author: <author1_id>
+date: 2025-01-12 00:00:00 +0800
+categories: [news]
+tags: [Information asymmetry today]
 ---
 
-# AI Agent Tokens Outperform Bitcoin and Ethereum in Crypto Market  
+# 在兴趣日益增长之际，GRIFFAIN跃升为第二大Solana AI代理机构启动平台
 
-Over the past 24 hours, AI agent tokens have emerged as standout performers in the crypto market, overshadowing Bitcoin and Ethereum. CryptoSlate's top gainer list highlights impressive growth among the top AI tokens, including ChainGPT, Freysa, aixbt by Virtuals, Swarms, and AI Rig Complex. These tokens recorded double-digit gains over the last 24 hours, with the least registering a 17% gain.  
+**链接**: [https://www.banklesstimes.com/articles/2024/12/14/griffain-2nd-largest-ai-agent-launchpad-are-virtual-protocols-days-numbered/](https://www.banklesstimes.com/articles/2024/12/14/griffain-2nd-largest-ai-agent-launchpad-are-virtual-protocols-days-numbered/)
 
-**中文翻译**: 过去24小时内，AI代理代币在加密货币市场中表现出色，超越了比特币和以太坊。CryptoSlate的涨幅榜显示，顶级AI代币如ChainGPT、Freysa、Virtuals的aixbt、Swarms和AI Rig Complex等表现尤为突出。这些代币在过去24小时内实现了两位数的涨幅，最低涨幅也达到了17%。  
-
-**Source Link**: [CryptoSlate](https://cryptoslate.com)
-
----
-
-# AI16Z Token Surges 23.7% in 24 Hours Amid Tokenomic Upgrade Plans  
-
-An under-the-radar project focused on artificial intelligence (AI) is defying the crypto market downturn as tokenomic upgrade plans begin to take shape. The utility token for the AI agent project ai16z is trading for $1.52 at the time of writing, up 23.7% in the past 24 hours.  
-
-**中文翻译**: 一个专注于人工智能（AI）的低调项目正在逆势而上，随着代币经济升级计划的逐步成形。AI代理项目ai16z的实用代币在撰写本文时的交易价格为1.52美元，过去24小时内上涨了23.7%。  
-
-**Source Link**: [CryptoSlate](https://cryptoslate.com)
+**内容**: Griffain AI代理启动平台的崛起。Griffain在Solana区块链上作为Solana AI代理黑客松项目的一部分启动，其初始上市发生在2024年11月21日。该平台融合了人工智能和区块链技术，创建了一种强大的去中心化金融（DeFi）解决方案，能够实现无缝的代币交换、流动性提供和社区建设。
 
 ---
 
-# MAX Token Spikes 156% in 24 Hours Amid AI Agent Market Growth  
+# 今日顶级AI新闻
 
-MAX, the utility token of Agents.Land, where users can create and customize their own AI agents, has been on a wild uptick in the last 24 hours, logging a stellar 156% spike amid a 530% rally.  
+**链接**: [https://www.binance.com/en/square/news/ai+news](https://www.binance.com/en/square/news/ai+news)
 
-**中文翻译**: MAX是Agents.Land的实用代币，用户可以在该平台上创建和定制自己的AI代理。过去24小时内，MAX代币经历了疯狂的上涨，涨幅高达156%，而整体涨幅更是达到了530%。  
-
-**Source Link**: [CryptoSlate](https://cryptoslate.com)
-
----
-
-# AI16Z Connects AI Entrepreneurs and Investors in Growing Ecosystem  
-
-AI16Z represents a venture capital firm managed by AI agents, aiming to shape the future of artificial intelligence. The AI16Z team connects AI entrepreneurs, investors, and experts to foster growth in the rapidly growing AI ecosystem. The live price of ai16z is $1.24, with a total trading volume of $3.09M in the last 24 hours.  
-
-**中文翻译**: AI16Z是一家由AI代理管理的风险投资公司，旨在塑造人工智能的未来。AI16Z团队连接AI企业家、投资者和专家，以促进快速增长的AI生态系统的发展。ai16z的实时价格为1.24美元，过去24小时内的总交易量为309万美元。  
-
-**Source Link**: [CryptoSlate](https://cryptoslate.com)
+**内容**:
+- **Bitwise CEO称AI可能会促使小众公司和代币化业务的增长**  
+  根据Odaily的报道，Bitwise的CEO Hunter Horsley最近在X上分享了看法，认为人工智能（AI）可能会带来小众公司和代币化业务的激增。
+- **OpenAI CEO称AI代理将在2025年进入劳动力市场**  
+  根据Cointelegraph的报道，OpenAI CEO Sam Altman表示，人工智能代理可能最早在今年开始进入劳动力市场，因为公司正在向开发类人通用人工智能（AGI）迈进。
+- **OpenAI CEO披露对新AI技术的主要期望**  
+  根据Odaily的报道，12月31日，OpenAI CEO Sam Altman在社交媒体平台X上公布了一周内的调查结果，突出了公众对即将到来的AI技术的期望。
 
 ---
 
-# AI Agent Market Cap Reaches $14.86 Billion with $873M Trading Volume  
+# 加密市场获得24/7 AI代理托管的突发新闻直播
 
-The AI agent market is experiencing substantial growth, with its market capitalization reaching approximately $14.86 billion and a 24-hour trading volume of $873 million. AI mindshare has surged to nearly 72%, indicating that AI narratives dominate discussions within the cryptocurrency sector. Analysts predict continued growth in this sector.  
+**链接**: [https://cointelegraph.com/news/crypto-market-gets-24-7-ai-agent-hosted-livestream-for-breaking-news](https://cointelegraph.com/news/crypto-market-gets-24-7-ai-agent-hosted-livestream-for-breaking-news)
 
-**中文翻译**: AI代理市场正在经历显著增长，其市值已达到约148.6亿美元，24小时交易量为8.73亿美元。AI的讨论份额已飙升至近72%，表明AI话题在加密货币领域占据了主导地位。分析师预测该领域将继续增长。  
-
-**Source Link**: [CryptoSlate](https://cryptoslate.com)
+**内容**: ChainNews推出了一个由AI托管的加密新闻直播频道，其中包括多个互动AI代理，例如一个名为DogWifHat的实时代理，为加密爱好者提供个性化的实时更新，将被动的新闻消费转化为积极的参与。通过这些互动AI代理，用户可以实时体验加密新闻，与区块链本身一样快速适应市场变化。Matrix One的创始人Mark Studholme强调，就像股票市场受益于像Bloomberg Live和CNBC这样的直播媒体一样，加密行业也通过ChainNews的推出获得专门的直播媒体：“任何对突发加密新闻感兴趣的人都可以免费使用，并由我们来自Matrix One的AI驱动角色主持。”
 
 ---
 
-# ChainGPT Token Leads AI Token Gains with 17% Increase  
+# io.net合作激发投资者兴趣，ZEREBRO币上涨45%
 
-ChainGPT, one of the top AI tokens, has seen a 17% increase in value over the last 24 hours, leading the gains among AI-related cryptocurrencies.  
+**链接**: [https://www.banklesstimes.com/articles/2024/12/30/zerebro-news-ai-agent-token-surges-45-amid-io-net-partnership/](https://www.banklesstimes.com/articles/2024/12/30/zerebro-news-ai-agent-token-surges-45-amid-io-net-partnership/)
 
-**中文翻译**: ChainGPT是顶级AI代币之一，过去24小时内其价值上涨了17%，在AI相关加密货币中领涨。  
-
-**Source Link**: [CryptoSlate](https://cryptoslate.com)
+**内容**: 自主AI代理协议Zerebro凭借其近期价格飙升吸引了市场关注，受到技术和市场可达性的战略性发展驱动。由于与io.net的合作以及在AI和区块链集成方面的进展，ZEREBRO的价格从平均500万美元在24小时内跃升至超过1.92亿美元。
 
 ---
 
-# Freysa Token Gains 20% in 24 Hours Amid AI Market Surge  
+# 人工智能行业趋势与洞察的最新消息
 
-Freysa, another prominent AI token, has gained 20% in value over the last 24 hours, reflecting the growing interest in AI-related blockchain projects.  
+**链接**: [https://www.cryptopolitan.com/news/ai/](https://www.cryptopolitan.com/news/ai/)
 
-**中文翻译**: Freysa是另一个知名的AI代币，过去24小时内其价值上涨了20%，反映出市场对AI相关区块链项目的兴趣日益增长。  
-
-**Source Link**: [CryptoSlate](https://cryptoslate.com)
-
----
-
-# Swarms Token Rises 18% in 24 Hours as AI Agent Market Expands  
-
-Swarms, an AI token, has risen 18% in the last 24 hours, contributing to the overall growth of the AI agent market.  
-
-**中文翻译**: Swarms是一种AI代币，过去24小时内上涨了18%，为AI代理市场的整体增长做出了贡献。  
-
-**Source Link**: [CryptoSlate](https://cryptoslate.com)
-
----
-
-# AI Rig Complex Token Sees 19% Gain in 24 Hours  
-
-AI Rig Complex, a token associated with AI and blockchain, has seen a 19% gain in the last 24 hours, further highlighting the strength of the AI token market.  
-
-**中文翻译**: AI Rig Complex是一种与AI和区块链相关的代币，过去24小时内上涨了19%，进一步凸显了AI代币市场的强劲表现。  
-
-**Source Link**: [CryptoSlate](https://cryptoslate.com)
-
----
-
-# AI Narratives Dominate Crypto Discussions with 72% Mindshare  
-
-AI narratives now dominate 72% of discussions within the cryptocurrency sector, reflecting the growing importance of AI and blockchain integration in the market.  
-
-**中文翻译**: AI话题现在占据了加密货币领域72%的讨论份额，反映出AI与区块链整合在市场中日益增长的重要性。  
-
-**Source Link**: [CryptoSlate](https://cryptoslate.com)
-
----
+**内容**: 通过我们的最新新闻和洞察，探索人工智能的前沿。通过关注新兴趋势和发展，在AI行业中保持领先。
+- **4小时前**: Vitalik 警告，AI必须赋权人类而不是剥夺人类的权力。
+- **阅读时间**: 2分钟。
+- **5小时前**: 具有交易能力的AI代理：下一个热点趋势？关注我们的推特获取更多更新。

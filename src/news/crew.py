@@ -6,7 +6,7 @@ from chromadb.utils.embedding_functions.openai_embedding_function import (
 )
 from crewai_tools.tools.vision_tool.vision_tool import ImagePromptSchema
 
-from src.tools.search_tools import SearchTool
+from src.tools.search_tools import SearchToolByDuck, SearchToolByTavily
 
 
 from ..llm import LLMs
@@ -23,7 +23,7 @@ class NewsCrew:
             config=self.agents_config["retriever"],
             llm=LLMs.default(),
             verbose=True,
-            tools=[SearchTool()],
+            tools=[SearchToolByTavily()],
         )
 
     @agent
