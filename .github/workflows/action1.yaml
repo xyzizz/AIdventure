@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        
+
       - name: Set up Python 3.12
         uses: actions/setup-python@v2
         with:
@@ -22,7 +22,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: Set up environment variables
-        run: echo "API_KEY=${{ secrets.API_KEY }}" >> $GITHUB_ENV
+        run: |
+          echo "TYLV_API_KEY=${{ secrets.TYLV_API_KEY }}" >> $GITHUB_ENV
+          echo "TYLV_API_KEY=${{ secrets.ZHIPU_API_KEY }}" >> $GITHUB_ENV
 
       - name: Get current date
         id: get_date  # 添加 id 以便引用输出
@@ -30,5 +32,6 @@ jobs:
 
       - name: Crew run
         env:
-          API_KEY: ${{ secrets.API_KEY }}
-        run: python main.py ${{ env.current_date }}
+          TYLV_API_KEY: ${{ secrets.TYLV_API_KEY }}
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+        run: python main.py

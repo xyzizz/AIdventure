@@ -2,16 +2,19 @@ import os
 from crewai import LLM
 from langchain_google_genai import ChatGoogleGenerativeAI
 
+
 class LLMs:
     @classmethod
     def default(cls) -> LLM:
-        return cls.azure()
+        return cls.zhipu()
 
     @classmethod
     def zhipu(cls) -> LLM:
         zhipu_llm = LLM(
-            model=os.getenv("ZHIPU_MODEL"),
-            base_url=os.getenv("ZHIPU_API_ENDPOINT"),
+            model=os.getenv("ZHIPU_MODEL", "openai/glm-4-flash"),
+            base_url=os.getenv(
+                "ZHIPU_API_ENDPOINT", "https://open.bigmodel.cn/api/paas/v4/"
+            ),
             api_key=os.getenv("ZHIPU_API_KEY"),
         )
         return zhipu_llm
@@ -46,12 +49,13 @@ class LLMs:
     @classmethod
     def gemini(cls) -> LLM:
         llm = ChatGoogleGenerativeAI(
-            model='gemini-2.0-flash-exp',
+            model="gemini-2.0-flash-exp",
             verbose=True,
             temperature=0.5,
-            goggle_api_key=os.getenv('GEMINI_API_KEY')
+            goggle_api_key=os.getenv("GEMINI_API_KEY"),
         )
         return llm
+
 
 class VLLMs:
     @classmethod
