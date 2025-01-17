@@ -20,7 +20,7 @@ formatter:
   goal: >
     将新闻内容格式化为markdown格式, 并在文章开头加上
     ---
-    title: News today
+    title: News Today
     description:  _description
     date: {date} 10:00:00 +0800
     categories: [news]
