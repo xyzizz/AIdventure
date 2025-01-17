@@ -19,11 +19,6 @@ jobs:
         with:
           python-version: 3.12
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-
       - name: Set up environment variables
         run: |
           echo "TVLY_API_KEY=${{ secrets.TVLY_API_KEY }}" >> $GITHUB_ENV
@@ -36,6 +31,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
       - name: Crewai Generate News
         env:
