@@ -38,8 +38,8 @@ jobs:
           CURRENT_DATE: ${{ env.CURRENT_DATE }}
         run: |
           python main.py $CURRENT_DATE
-          mkdir -p $GITHUB_WORKSPACE/output
-          mv ./output/${CURRENT_DATE}-News.md $GITHUB_WORKSPACE/output/${CURRENT_DATE}-News.md
+          mkdir -p $GITHUB_WORKSPACE/outputs
+          mv ./outputs/${CURRENT_DATE}-News.md $GITHUB_WORKSPACE/outputs/${CURRENT_DATE}-News.md
 
       - name: Checkout News repository
         uses: actions/checkout@v2
@@ -49,7 +49,7 @@ jobs:
           token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
 
       - name: Copy output file to News repository
-        run: cp $GITHUB_WORKSPACE/output/${CURRENT_DATE}-News.md xyzizz.github.io/_posts/
+        run: cp $GITHUB_WORKSPACE/outputs/${CURRENT_DATE}-News.md xyzizz.github.io/_posts/
 
       - name: Commit and push changes to News repository
         run: |
