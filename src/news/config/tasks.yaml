@@ -1,8 +1,8 @@
 retrieve_task:
   description: >
-    获取24小时内最新的10条有关AI、AI Agent和区块链新闻的内容、标题和来源链接
+    获取24小时内最新的10条有关AI大模型、AI Agent和区块链新闻的内容、标题和来源链接
   expected_output: >
-    获取24小时内最新的10条有关AI、AI Agent和区块链新闻的内容、标题和来源链接
+    获取24小时内最新的10条有关AI大模型、AI Agent和区块链新闻的内容、标题和来源链接
 
 translate_task:
   description: >

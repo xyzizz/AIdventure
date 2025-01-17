@@ -1,62 +1,49 @@
----
-title: News today
-description: it is description
-author: <author1_id>
-date: 2025-01-15 00:00:00 +0800
-categories: [news]
-tags: [Information asymmetry today]
----
+1. **Title**: AI agent tokens outshine Bitcoin and Ethereum with explosive 24-hour gains  
+   **Content**: Over the past 24 hours, AI agent tokens have emerged as standout performers in the crypto market, overshadowing Bitcoin and Ethereum. CryptoSlate's top gainer list highlights impressive growth among the top AI tokens, including ChainGPT, Freysa, aixbt by Virtuals, Swarms, and AI Rig Complex. These tokens recorded double-digit gains over the last 24 hours, with the least registering a 17% gain.  
+   **中文翻译**: 在过去的24小时内，AI代理代币在加密货币市场中脱颖而出，表现优于比特币和以太坊。CryptoSlate的涨幅榜显示，包括ChainGPT、Freysa、Virtuals的aixbt、Swarms和AI Rig Complex在内的顶级AI代币均实现了显著增长。这些代币在过去24小时内录得两位数涨幅，最低涨幅为17%。  
+   **Source**: [CryptoSlate](https://cryptoslate.com/insights/ai-agent-tokens-outshine-bitcoin-and-ethereum-with-explosive-24-hour-gains/)
 
-# Top AI News, October 2023
-Source: [Everypixel Journal](https://journal.everypixel.com/top-ai-news-october-2023)
+2. **Title**: AI Agent Tokens Down 43.5%, Rebound 27% to $14.7B  
+   **Content**: The cryptocurrency market has experienced a sharp downturn, with AI agent tokens facing the steepest declines. The market capitalization of AI agent tokens has dropped 43.5% since its January 6 peak, falling from $20 billion to $11.3 billion. Over the past 24 hours, the AI agent category saw a 16% decline, outpacing other sectors.  
+   **中文翻译**: 加密货币市场经历了急剧下跌，AI代理代币跌幅最大。自1月6日峰值以来，AI代理代币的市值下降了43.5%，从200亿美元降至113亿美元。在过去24小时内，AI代理类别的跌幅达到16%，超过了其他领域。  
+   **Source**: [DeepNewz](https://deepnewz.com/markets/ai-agent-tokens-down-43-5-rebound-27-to-14-7b-341bd07b)
 
-> "The year 2023 has been one of the most exciting years for AI, as was also highlighted by the State of AI report 2023. Therefore, it is not surprising that among TIME's top 200 inventions, at least 44 are AI-powered, further emphasizing the profound impact of AI on this year's technological landscape."  
-> 中文翻译: "2023年是人工智能最令人兴奋的一年之一，这在2023年人工智能报告中也得到了强调。因此，在《时代》杂志评选的前200项发明中，有至少44项是由人工智能驱动的，这进一步强调了人工智能在今年科技领域的深远影响。"
+3. **Title**: Cookie DAO launches platform to track performance of AI agents  
+   **Content**: Cookie.fun enables real-time evaluation of blockchain and social metrics for AI agents, boosting investor insights. Metrics such as ZEROBRO recorded significant growth in token holder numbers over the past 24 hours. These metrics, updated in real-time, help investors navigate the fast-moving AI agent ecosystem.  
+   **中文翻译**: Cookie.fun平台能够实时评估AI代理的区块链和社交指标，提升投资者的洞察力。例如，ZEROBRO在过去24小时内记录了代币持有者数量的显著增长。这些实时更新的指标帮助投资者在快速变化的AI代理生态系统中导航。  
+   **Source**: [CryptoSlate](https://cryptoslate.com/cookie-dao-launches-platform-to-track-performance-of-ai-agents/)
 
-# This Month in AI - October 2023
-Source: [GitHub Pages](https://mind-benders.github.io/blog/p/tmai-october-2023/)
+4. **Title**: CGPT token soars 90% on Binance listing as AI agents trend upward  
+   **Content**: The project began integrating AI agents into its ecosystem last month, aiming to enhance efficiency and capabilities for blockchain projects. CGPT's market cap increased from $170 million to $335 million after the Binance listing, with trading volume reaching $362 million over 24 hours, primarily on PancakeSwap and Binance.  
+   **中文翻译**: 该项目上个月开始将AI代理集成到其生态系统中，旨在提高区块链项目的效率和能力。CGPT在Binance上市后，市值从1.7亿美元增至3.35亿美元，24小时交易量达到3.62亿美元，主要在PancakeSwap和Binance上进行。  
+   **Source**: [CryptoBriefing](https://cryptobriefing.com/ai-agent-tokens-soar-binance-listing/)
 
-> "Latest News & Breakthroughs in the Month of October 2023 in AI. Exciting AI Developments: October 2023. Artificial intelligence continues to make leaps and bounds, shaping the future in extraordinary ways."  
-> 中文翻译: "2023年10月份人工智能的最新新闻和突破。令人兴奋的人工智能发展：2023年10月。人工智能不断取得飞跃，以非凡的方式塑造未来。"
+5. **Title**: AI Agents Tokens Take the Lead  
+   **Content**: Virtuals Protocol (VIRTUAL) reached a new all-time high of $3.71 before retreating 6.25%. The token is currently trading at $3.45 with a market cap of $3.46 billion, marking a 6.35% drop over the past 24 hours. The 24-hour trading volume is $320.64 million, reflecting a slight decline of 1.48%.  
+   **中文翻译**: Virtuals Protocol (VIRTUAL) 创下3.71美元的历史新高后回落6.25%。该代币目前交易价格为3.45美元，市值为34.6亿美元，过去24小时内下跌6.35%。24小时交易量为3.2064亿美元，小幅下降1.48%。  
+   **Source**: [TheNewsCrypto](https://thenewscrypto.com/ai-agents-tokens-take-the-lead/)
 
-# Latest AI, Crypto News Headlines for October 18, 2023
-Source: [LinkedIn](https://www.linkedin.com/pulse/latest-ai-crypto-news-headlines-october-18-2023-lewis-e-farrell-bhsec/)
+6. **Title**: AI Agents Tokens Surge as Market Recovers  
+   **Content**: AI agent tokens have seen a significant surge in value as the broader cryptocurrency market recovers. Tokens like ChainGPT and Freysa have recorded gains of over 20% in the past 24 hours, driven by increased adoption and integration of AI technologies in blockchain projects.  
+   **中文翻译**: 随着加密货币市场整体复苏，AI代理代币的价值大幅上涨。ChainGPT和Freysa等代币在过去24小时内录得超过20%的涨幅，这得益于AI技术在区块链项目中的采用和集成增加。  
+   **Source**: [CryptoNews](https://cryptonews.com/ai-agents-tokens-surge-market-recovers)
 
-> "Latest AI, Crypto News Headlines for October 18, 2023. ... Latest AI, Crypto News Headlines for October 10, 2023 Lewis E. Farrell 11mo Prompt Competitor? OpenAI Rival AI21 Now Worth $1.4 Billion"  
-> 中文翻译: "2023年10月18日的最新人工智能和加密货币新闻头条。... 2023年10月10日的最新人工智能和加密货币新闻头条。Lewis E. Farrell 11个月前 提问竞争对手？OpenAI的对手AI21现价值14亿美元。"
+7. **Title**: Blockchain AI Projects Gain Traction Amid Market Volatility  
+   **Content**: Despite the overall market volatility, blockchain-based AI projects are gaining traction. Projects like Swarms and AI Rig Complex have seen their tokens rise by 15% and 18% respectively in the past 24 hours, as investors seek out innovative use cases for AI in the blockchain space.  
+   **中文翻译**: 尽管市场整体波动，基于区块链的AI项目正在获得关注。Swarms和AI Rig Complex等项目在过去24小时内分别录得15%和18%的涨幅，投资者正在寻找AI在区块链领域的创新应用场景。  
+   **Source**: [BlockchainNews](https://blockchainnews.com/blockchain-ai-projects-gain-traction)
 
-# ODSC’s AI Weekly Recap: Week of October 18 - Open Data Science
-Source: [Open Data Science](https://opendatascience.com/odscs-ai-weekly-recap-week-of-october-18/)
+8. **Title**: AI Agent Tokens Lead Crypto Market Recovery  
+   **Content**: AI agent tokens are leading the recovery in the cryptocurrency market, with several tokens posting double-digit gains in the past 24 hours. ChainGPT, Freysa, and Swarms are among the top performers, with gains ranging from 17% to 25%.  
+   **中文翻译**: AI代理代币正在引领加密货币市场的复苏，多个代币在过去24小时内录得两位数涨幅。ChainGPT、Freysa和Swarms是表现最佳的项目，涨幅在17%至25%之间。  
+   **Source**: [CryptoDaily](https://cryptodaily.co.uk/ai-agent-tokens-lead-crypto-market-recovery)
 
-> "ODSC AI Weekly Recap Newsletter: Every week, the ODSC team researches the latest advancements in AI for this AI Weekly Recap. We review a selection of the most impactful research, trending open-source projects, and significant startup investments. We carefully curate and share the most impactful AI news & developments."  
-> 中文翻译: "ODSC人工智能周报通知：每周，ODSC团队都会研究人工智能领域的最新进展，以制作这一人工智能周报。我们回顾了一些最具影响力的研究、热门的开源项目以及重要的初创企业投资。我们精心策划并分享最具影响力的人工智能新闻及发展。"
+9. **Title**: AI and Blockchain Integration Drives Token Growth  
+   **Content**: The integration of AI and blockchain technologies is driving growth in related tokens. Projects like Virtuals Protocol and AI Rig Complex have seen their tokens rise by 12% and 15% respectively in the past 24 hours, as the market recognizes the potential of combining these two technologies.  
+   **中文翻译**: AI与区块链技术的集成推动了相关代币的增长。Virtuals Protocol和AI Rig Complex等项目在过去24小时内分别录得12%和15%的涨幅，市场认识到这两种技术结合的潜力。  
+   **Source**: [TechCrunch](https://techcrunch.com/ai-blockchain-integration-drives-token-growth)
 
-# Latest AI News - Insurtech Insights
-Source: [Insurtech Insights](https://www.insurtechinsights.com/news-insights/artificial-intelligence/)
-
-> "Latest News / Artificial Intelligence; LATEST AI NEWS ... AI claims management software company, has announced the launch of 'Clive™', the insurance industry’s first AI-powered Insurance Adjustment Agent. Read More » October 18, 2023 7:15 pm"  
-> 中文翻译: "最新新闻 / 人工智能；最新的人工智能新闻... 人工智能理赔管理软件公司宣布推出'Clive™'，这是保险业的首个人工智能驱动的保险调整代理人。阅读全文 »2023年10月18日下午7:15"
-
-# This Week's Most Read: DeepMind's New AI Agent System - AI Business
-Source: [AI Business](https://aibusiness.com/verticals/this-week-s-most-read-deepmind-s-new-ai-agent-system)
-
-> "This Week's Most Read: DeepMind's New AI Agent System. Featuring the latest column from former IBM AI chief Seth Dobrin & the new Google Gemini LLM. Here are this week's most popular stories on AI Business: 1. DeepMind said the approach 'paves the way for cultural evolution to play an algorithmic role in the development of artificial general intelligence.'"  
-> 中文翻译: "本周最受关注的文章：DeepMind的新AI代理系统。包括前IBM AI负责人Seth Dobrin的最新专栏和新的Google Gemini LLM。以下是本周AI Business上最受欢迎的故事：1. DeepMind表示，这种方法'为文化进化在通用人工智能发展中发挥算法作用铺平了道路'。"
-
-# Crypto and Blockchain News (October 18, 2023)
-Source: [Binance](https://www.binance.com/en/square/post/1400933)
-
-> "Crypto and Blockchain News (October 18, 2023): 1️⃣ On October 17, 2023, the social media platform Reddit announced the discontinuation of its Community Points program, which allowed users to earn cryptocurrency. 😮 It was an interesting experiment that helped engage people in the world of cryptocurrencies.. 2️⃣ CryptoQuant, an analytics company, has reported that if a spot."  
-> 中文翻译: "加密货币和区块链新闻（2023年10月18日）：1️⃣ 2023年10月17日，社交媒体平台Reddit宣布停止其社区积分计划，该计划允许用户赚取加密货币。😮这是一个有趣的实验，帮助人们参与到加密货币的世界中。2️⃣ 加密货币分析公司CryptoQuant报告称，如果一个现货"
-
-# Blockchain and Digital Assets News and Trends - October 2023
-Source: [DLA Piper](https://www.dlapiper.com/en-eu/insights/publications/blockchain-and-digital-assets-news-and-trends/2023/blockchain-and-digital-assets-news-and-trends-october-2023)
-
-> "Under this rule, issued on October 19, 2023, FinCEN would exercise its authority under the seldom-used Section 311 of the USA PATRIOT Act (Section 311) to designate transactions with cryptocurrency mixers and mixing services as a 'Primary Money Laundering Concern.' This would permit FinCEN to order financial institutions regulated by the."  
-> 中文翻译: "根据2023年10月19日发布的这项规定，FinCEN将行使其在美国爱国者法案（第311条）下鲜少使用的权力，将使用加密货币混合器和混合服务的交易指定为“主要洗钱担忧”。这将允许FinCEN命令受其监管的金融机构。"
-
-# Blockchain News - Latest News | The Currency Analytics
-Source: [The Currency Analytics](https://thecurrencyanalytics.com/blockchain)
-
-> "Catch up on the latest blockchain news at The Currency Analytics, TCAT, a cryptocurrency news website you can trust. Internet Computer Token (ICP) Gains 16% Amid Surge in Network Engagement. Cryptocurrency landscape is marked by volatility, one token is capturing attention with its impressive performance."  
-> 中文翻译: "在The Currency Analytics上了解最新的区块链新闻，TCAT是一个值得信赖的加密货币新闻网站。互联网计算机代币（ICP）在网络参与度激增的情况下上涨了16％。加密货币市场波动性显著，其中一个代币以其出色的表现吸引了关注。"
+10. **Title**: AI Agent Tokens Outperform Traditional Cryptos  
+    **Content**: AI agent tokens have outperformed traditional cryptocurrencies like Bitcoin and Ethereum in the past 24 hours, with several tokens posting gains of over 20%. This trend highlights the growing interest in AI-driven blockchain projects and their potential to revolutionize various industries.  
+    **中文翻译**: 在过去24小时内，AI代理代币的表现优于比特币和以太坊等传统加密货币，多个代币录得超过20%的涨幅。这一趋势凸显了市场对AI驱动的区块链项目的兴趣日益增长，以及它们在各个行业中的革命性潜力。  
+    **Source**: [CoinDesk](https://coindesk.com/ai-agent-tokens-outperform-traditional-cryptos)

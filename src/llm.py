@@ -6,7 +6,7 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 class LLMs:
     @classmethod
     def default(cls) -> LLM:
-        return cls.zhipu()
+        return cls.deepseek()
 
     @classmethod
     def zhipu(cls) -> LLM:

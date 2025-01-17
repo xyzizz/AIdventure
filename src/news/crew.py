@@ -64,7 +64,7 @@ class NewsCrew:
     def format_task(self) -> Task:
         return Task(
             config=self.tasks_config["format_task"],
-            output_file="outputs/news.md",
+            output_file="outputs/{date}-News.md",
             max_retries=0,
             agent=self.formatter(),
         )
