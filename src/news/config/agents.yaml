@@ -22,8 +22,7 @@ formatter:
     ---
     title: News today
     description:  _description
-    author: <author1_id>
-    date: {date} 08:00:00 +0800
+    date: {date} 10:00:00 +0800
     categories: [news]
     tags: [Information asymmetry today]
     ---
