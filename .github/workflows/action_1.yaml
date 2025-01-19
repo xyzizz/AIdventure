@@ -1,9 +1,9 @@
 name: crew_action
 
 on:
-  push:
-    branches:
-      - master
+  # push:
+  #   branches:
+  #     - master
   schedule:
     - cron: '0 2 * * *' # 10 AM Beijing time (UTC+8)
 
