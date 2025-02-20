@@ -7,10 +7,12 @@ from chromadb.utils.embedding_functions.openai_embedding_function import (
 from crewai_tools.tools.vision_tool.vision_tool import ImagePromptSchema
 
 from src.tools.search_tools import SearchToolByDuck, SearchToolByTavily
-
+import litellm
 
 from ..llm import LLMs
 
+os.environ['LITELLM_LOG'] = 'DEBUG'
+litellm.set_verbose=True
 
 @CrewBase
 class NewsCrew:
