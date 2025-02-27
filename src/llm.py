@@ -55,6 +55,14 @@ class LLMs:
             goggle_api_key=os.getenv("GEMINI_API_KEY"),
         )
         return llm
+    
+    @classmethod
+    def ollama_deepseek(cls) -> LLM:
+        ollama_deepseek_llm = LLM(
+            model="ollama/deepseek-r1:1.5b",
+            base_url="http://localhost:11434"
+        )
+        return ollama_deepseek_llm
 
 
 class VLLMs:
