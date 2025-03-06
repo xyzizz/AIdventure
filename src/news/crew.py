@@ -11,8 +11,9 @@ import litellm
 
 from ..llm import LLMs
 
-os.environ['LITELLM_LOG'] = 'DEBUG'
-litellm.set_verbose=True
+os.environ["LITELLM_LOG"] = "DEBUG"
+litellm.set_verbose = True
+
 
 @CrewBase
 class NewsCrew:
