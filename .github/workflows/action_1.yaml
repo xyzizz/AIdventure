@@ -5,7 +5,7 @@ on:
   #   branches:
   #     - master
   schedule:
-    - cron: '0 0 1 * *' # 10 AM Beijing time (UTC+8)
+    - cron: '0 0 * * *' # 10 AM Beijing time (UTC+8)
 
 jobs:
   build:
